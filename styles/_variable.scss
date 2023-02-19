@@ -1,0 +1,27 @@
+$Lightred: hsl(0, 100%, 67%);
+$Orangeyyellow: hsl(39, 100%, 56%);
+$Greenteal: hsl(166, 100%, 37%);
+$Cobaltblue: hsl(234, 85%, 45%);
+
+// Gradients
+
+$Lightslateblue: hsl(252, 100%, 67%); // (background)
+$Lightroyalblue: hsl(241, 81%, 54%); //(background)
+
+$Violetblue: hsla(256, 72%, 46%, 1); //(circle)
+$Persianblue: hsla(241, 72%, 46%, 0); // (circle)
+
+// Neutral
+
+$White: hsl(0, 0%, 100%);
+$blue: hsl(221, 100%, 96%);
+$Lightlavender: hsl(241, 100%, 89%);
+$Darkgrayblue: hsl(224, 30%, 27%);
+
+$font: "Hanken Grotesk", sans-serif;
+
+@mixin display($display: flex, $align: center, $justify: center) {
+  display: $display;
+  align-items: $align;
+  justify-content: $justify;
+}
